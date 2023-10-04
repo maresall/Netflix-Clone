@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(36, 32, 32);
+}
+
+.text {
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+.text h2 {
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 166px;
+}
+
+.profile-width {
+    width: 155px;
+    height: 160px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.profile-width a img {
+    width: 155px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.profile-width a {
+    text-decoration: none;
+}
+
+.text-name ul {
+    display: flex;
+    justify-content: center;
+    color: white;
+    list-style-type: none;
+    height: 65px;
+}
+
+.text-name li {
+    padding: 71px;
+    position: relative;
+    bottom: 60px;
+    left: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.btn a {
+    text-decoration: none;
+}
+
+.btn a button {
+    background: rgb(36, 32, 32);
+    padding: 10px 35px;
+    color: gray;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+@media only screen and (max-width:768px){
+    .text{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    .profile-width{
+       
+    }
+}
